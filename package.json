@@ -1,0 +1,54 @@
+{
+	"name": "stlascii-file-syntax",
+	"displayName": "STL ASCII File Syntax",
+	"description": "Syntax Highlighting for ASCII STL CAD Files",
+	"version": "1.0.0",
+	"publisher": "mjecke",
+	"icon": "images/stlascii_icon.png",
+	"engines": {
+		"vscode": "^1.37.0"
+	},
+	"author": {
+		"name": "Mike Eckert"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": [
+		".stl", "stl ascii", "3d stl", "stl file", "stl mesh"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "stlascii",
+				"aliases": [
+					"stl",
+					"stl ascii file"
+				
+				],
+				"extensions": [
+					".stl"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "stlascii",
+				"scopeName": "source.stlascii",
+				"path": "./syntaxes/stlascii.tmLanguage.json"
+			}
+		]
+	},
+	"homepage": "https://github.com/mjecke/stlascii-file-syntax",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mjecke/stlascii-file-syntax.git",
+		"bugs": {
+			"url": "https://github.com/mjecke/stlascii-file-syntax",
+			"email": "mje.dm6@gmail.com"
+		}
+	},
+	"license": "MIT"
+	
+}

@@ -1,0 +1,16 @@
+{
+    "comments": {
+        
+    },
+    "brackets": [
+        
+    ],
+    "autoClosingPairs": [
+        { "open": "solid", "close": "\nendsolid", "notIn": ["string", "comment"] },
+        { "open": "facet", "close": "\nendfacet", "notIn": ["string", "comment"] },
+        { "open": "outer loop", "close": "\nendloop", "notIn": ["string", "comment"] }
+    ],
+    "surroundingPairs": [
+
+    ]
+}
