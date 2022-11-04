@@ -1,0 +1,33 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "stlascii",
+	"patterns": [
+		{
+			"name": "keyword.control.stlascii",
+			"match": "(solid|SOLID|endsolid|ENDSOLID)"
+		},
+		{
+			"name": "comment.line.stlascii",
+			"match": "(((?<=solid).*)|((?<=endsolid).*)|((?<=SOLID).*)|((?<=ENDSOLID).*))"
+		},
+		{
+			"name": "keyword.other.stlascii",
+			"match": "(facet|FACET|endfacet|ENDFACET)"
+		},
+		{
+			"name": "entity.name.class.stlascii",
+			"match": "(outer loop|OUTER LOOP|endloop|ENDLOOP)"
+		},
+		{
+			"name": "constant.numeric.stlascii",
+			"match": "(vertex|VERTEX)"
+		},
+		{
+			"name": "entity.name.function.stlascii",
+			"match": "(normal|NORMAL)"
+		}
+	],
+	"scopeName": "source.stlascii"
+}
+
+
