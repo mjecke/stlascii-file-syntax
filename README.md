@@ -4,6 +4,7 @@
   <br>
 </h1>
 
+Install from the VS Code Marketplace here: https://marketplace.visualstudio.com/items?itemName=mjecke.stlascii-file-syntax
 ## About
 
 Provides very basic syntax highlighting when manually viewing ASCII of .STL Mesh files in VS Code.
